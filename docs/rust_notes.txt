@@ -1,0 +1,13 @@
+My Rust Study Notes
+
+I study Rust every day at 7 PM for 90 minutes. I keep this routine even on busy days, because short daily practice works better for me than long weekend sessions. If I miss a day, I make it up on Saturday morning.
+
+My practice project is a command line tool called logtool. It reads log files and prints only the lines that contain errors. I started it two weeks ago, and so far it can read one file at a time. Next I want to make it handle a whole folder of log files.
+
+I am currently reading chapter 4 of the Rust book, which is about ownership. Ownership was confusing at first. The main idea is that every value has one owner, and when the owner goes out of scope, the value is dropped. Borrowing lets other code use a value without taking ownership of it.
+
+My mentor for Rust is Priya. She works in the backend team and reviews my code every Friday afternoon. She told me to focus on understanding error messages from the compiler instead of copying fixes from the internet.
+
+For argument parsing in logtool, I use the clap crate. It makes it easy to add flags like --file and --verbose. I also plan to use the serde crate later, when I want to save results as JSON.
+
+My weekly review happens on Sunday evening. I write down what I learned, what confused me, and what I will practice next week. My goal for this month is to finish chapter 6 and publish logtool on GitHub.
